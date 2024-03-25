@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll .ratings {
+    width: 32%;
+    height: auto;
+    flex: 0 0 auto;
+    gap: 5px;
+    margin: 4% 0;
+    border: none;
+    outline: none;
+    color: #a2a2a2;
+    font-size: 22px;
+    text-align: center;
+    background: url("../images/line.jpg") top right no-repeat;
+}
+
+/* ==========Dữ Liệu Được... ============ */
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
